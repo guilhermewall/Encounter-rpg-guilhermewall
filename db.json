@@ -1,0 +1,469 @@
+{
+  "users": [
+    {
+      "email": "teste@mail.com",
+      "password": "$2a$10$R5j1xfda9QwPmSKuDcF.Ze7f3mEo7FtynZShlr20TIvaqRcFViF7y",
+      "id": 1,
+      "name": "teste",
+      "nickname": "nick teste"
+    },
+    {
+      "email": "maria@gmail.com",
+      "password": "$2a$10$G2A4/P/avGDb3gNGtdnBsuGEKMtitgy5LujT9xlpi7wUa53AQH2XC",
+      "name": "maria",
+      "nick": "mariana",
+      "id": 2
+    },
+    {
+      "email": "testinho@testinho.com",
+      "password": "$2a$10$adu1GPZ0OmuVhlyOjjHs7e15G7qa5xf0NDH0zfNCwl.Fwp1Nvuxqe",
+      "name": "testinho",
+      "nick": "testinho",
+      "id": 3
+    }
+  ],
+  "campaign": [
+    {
+      "userId": 1,
+      "campaignName": "teste de nome campanha",
+      "playersAmount": 10,
+      "description": "teste de descrição da campanha, pode conter um texto maior para explicar sobre como será a campanha e algumas regras sobre ela",
+      "rpgGame": "exemplos de campanha, D&D, Vampire Masquerade",
+      "plataform": "www.google.com",
+      "campaignImg": "https://www.syfy.com/sites/syfy/files/styles/blog-post-embedded--mobile/public/2022/08/329908_-_kansaldi_on_dragon_-_art_by_katerina_ladon_0.png",
+      "id": 2
+    },
+    {
+      "campaignImg": "asdfasdfasf",
+      "plataform": "asdfasdfas",
+      "rpgGame": "asdfasdf",
+      "description": "asdfasdfa",
+      "playersAmount": 1,
+      "campaignName": "sdfasdf",
+      "userId": "3",
+      "id": 3
+    },
+    {
+      "campaignImg": "asdfasdf",
+      "plataform": "asdfasdfa",
+      "rpgGame": "asdfasdf",
+      "description": "asdfasfd",
+      "playersAmount": 1,
+      "campaignName": "\\svzxcvzx",
+      "userId": "3",
+      "id": 4
+    },
+    {
+      "campaignImg": "asdfasdf",
+      "plataform": "asdfasdf",
+      "rpgGame": "asdfasdf",
+      "description": "asdfasdf",
+      "playersAmount": 1,
+      "campaignName": "asdfasdf",
+      "userId": "3",
+      "id": 5
+    },
+    {
+      "campaignImg": "asdfasdf",
+      "plataform": "asdfasdfas",
+      "rpgGame": "asdfasdfasdf",
+      "description": "asdfasdfasdf",
+      "playersAmount": 1,
+      "campaignName": "gadadfgadfg",
+      "userId": "3",
+      "id": 6
+    },
+    {
+      "campaignImg": "asdfashjduifhjas",
+      "plataform": "roll 50",
+      "rpgGame": "D&D",
+      "description": "bla bla bla",
+      "playersAmount": 1,
+      "campaignName": "asdfasdf",
+      "userId": "3",
+      "id": 7
+    },
+    {
+      "campaignImg": "asdfasdf",
+      "plataform": "asdfasdf",
+      "rpgGame": "asdfasdfasdfasd",
+      "description": "asdfasdfasdf",
+      "playersAmount": 4,
+      "campaignName": "asdfasdf",
+      "userId": "3",
+      "id": 8
+    },
+    {
+      "campaignImg": "asdfsdf",
+      "plataform": "asdf",
+      "rpgGame": "asdf",
+      "description": "asdfasdafsd",
+      "playersAmount": 10,
+      "campaignName": "asdfasdfasdf",
+      "userId": "3",
+      "id": 9
+    },
+    {
+      "campaignImg": "sdfgdfg",
+      "plataform": "dsfgsdfg",
+      "rpgGame": "dfgsdfg",
+      "description": "sdfgsdfg",
+      "playersAmount": 8,
+      "campaignName": "asdfasdf",
+      "userId": "3",
+      "id": 10
+    },
+    {
+      "campaignImg": "asdfasdfsdf",
+      "plataform": "asdfasdf",
+      "rpgGame": "asdfasdf",
+      "description": "asdfasdf",
+      "playersAmount": 8,
+      "campaignName": "sadfasdfasd",
+      "userId": "3",
+      "id": 11
+    },
+    {
+      "campaignImg": "https://www.rederpg.com.br/wp/wp-content/uploads/2007/03/08-11-maneiras-de-ser-um-jogador-de-RPG-melhor.png",
+      "plataform": "TESTE",
+      "rpgGame": "TESTE",
+      "description": "TESTE",
+      "playersAmount": 6,
+      "campaignName": "TESTE",
+      "userId": "3",
+      "id": 12
+    },
+    {
+      "campaignImg": "https://www.rederpg.com.br/wp/wp-content/uploads/2007/03/08-11-maneiras-de-ser-um-jogador-de-RPG-melhor.png",
+      "plataform": "Talespire",
+      "rpgGame": "The Mascarade",
+      "description": "Teste ",
+      "playersAmount": 5,
+      "campaignName": "Teste",
+      "userId": "3",
+      "id": 13
+    }
+  ],
+  "players": [
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 1
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 2
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 3
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 4
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 5
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 6
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 7
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 8
+    },
+    {
+      "campaignId": 5,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 9
+    },
+    {
+      "campaignId": 5,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 10
+    },
+    {
+      "campaignId": 5,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 11
+    },
+    {
+      "campaignId": 5,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 12
+    },
+    {
+      "campaignId": 6,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 13
+    },
+    {
+      "campaignId": 6,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 14
+    },
+    {
+      "campaignId": 3,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 15
+    },
+    {
+      "campaignId": 6,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 16
+    },
+    {
+      "campaignId": 2,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 17
+    },
+    {
+      "campaignId": 2,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 18
+    },
+    {
+      "campaignId": 2,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 19
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 20
+    },
+    {
+      "campaignId": 12,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 21
+    },
+    {
+      "campaignId": 12,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 22
+    },
+    {
+      "campaignId": 12,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 23
+    },
+    {
+      "campaignId": 12,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 24
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 25
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 26
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 27
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 28
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 29
+    },
+    {
+      "campaignId": 13,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 30
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 31
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 32
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 33
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 34
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 35
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 36
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 37
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 38
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 39
+    },
+    {
+      "campaignId": 4,
+      "email": "testinho@testinho.com",
+      "userId": 3,
+      "name": "testinho",
+      "nickname": "testinho",
+      "id": 40
+    }
+  ]
+}
